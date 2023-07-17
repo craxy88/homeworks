@@ -1,7 +1,7 @@
 name = "vano"
 surname = "motiashvili"
 age = 16
-city = ("tbilisi")
+city = "tbilisi"
 favorite_food = "lobiani"
 georgian_population = 3966194
 goa = "chad"

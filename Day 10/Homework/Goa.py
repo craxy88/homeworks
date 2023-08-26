@@ -1,3 +1,6 @@
+#თუ მომხმარებელი სწავლობს Goa-ში შეაქეთ თბილი სიტყვებით
+
+
 user_academy = input("Enter the name of your academy : ")
 
 if user_academy == ("Goa"):

@@ -1,18 +1,25 @@
 #შექმენით ფუნქცია, რომელსაც გადაეცემა კვადრატის გვერდი და დაპრინტავს მის ფართობს და პერიმეტრს.
 
-gverdi = int(input("sheiyvanet kvadratis gverdi : "))
+side = int(input("Enter the side of a square : "))
 
-def kvadrati(square):                                    #კვადრატის პერიმეტრი
-    print("kvadratis perimetria :" ,square * 4)
+def calc_p_square(any_side):                                    #კვადრატის პერიმეტრი
+    print("Perimeter of a square :" ,any_side * 4)
 
-kvadrati(gverdi)
+calc_p_square(side)
+
+
+length = int(input("Enter the length of the rectangle : "))
+width = int(input("Enter the width of the rectangle : "))
+
+def calc_rect_area(any_width , any_length ):
+    print("Area of ​the rectangle :" , any_length * any_width)
+
+calc_rect_area(length , width)
 
 
 
-sigrdze = int(input("sheiyvanet martkutxedis sigrdze : "))
-sigane = int(input("sheiyvanet martkutxedis sigane : "))
+# def misalmeba(nebismieri_saxeli):
+#     print(nebismieri_saxeli , "gamarjoba")
 
-def martkutxedi(sigrdze , sigane):
-    print("kvadratis fartobia :" , sigrdze * sigane)
-
-martkutxedi(sigrdze , sigane)
+# misalmeba("nika")
+# misalmeba("vano")

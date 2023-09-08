@@ -4,27 +4,28 @@ import random
 
 squad=["dato mgeladze","vano motiashvili","davit janashia","aleqsandre katsarava","lasha wamalaidze","ilia wiklauri","nini nozadze","nika chochia","gabriel gogadze","sandro bochorishvili","dato jachvadze","giorgi gelashvili","muhammedali mamedov","sandro oqropiridze","erekle gochitashvili"]
 
-randomizer1 = random.choice(squad)
-randomizer2 = random.choice(squad)
-randomizer3 = random.choice(squad)
+choice1 = random.choice(squad)
+choice2 = random.choice(squad)
+choice3 = random.choice(squad)
         
-if randomizer1[-1] == "i":
-    print(randomizer1 , "cool")
+if choice1[-1] == "i":
+    print(choice1 , "cool")
+else:
+    print(choice1)
 
-if randomizer2[-1] == "i":
-    print(randomizer2 , "cool")
+if choice2[-1] == "i":
+    print(choice2 , "cool")
+else:
+    print(choice2)
 
-if randomizer3[-1] == "i":
-    print(randomizer3 , "cool")
+if choice3[-1] == "i":
+    print(choice3 , "cool")
+else:
+    print(choice3)
 
-if randomizer1[-1] != "i":
-    print(randomizer1)
 
-if randomizer2[-1] != "i":
-    print(randomizer2)
 
-if randomizer3[-1] != "i":
-    print(randomizer3)
+    
 
 
     

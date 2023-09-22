@@ -4,7 +4,7 @@ squad=["dato mgeladze","vano motiashvili","davit janashia","aleqsandre katsarava
 
 squad2 = []
 
-max_len = -1
+max_len = 0
 for element in squad:
     if len(element) > max_len:
         max_len = len(element)
@@ -13,7 +13,7 @@ for element in squad:
 squad2.append(res)
 squad.remove(res)
 
-max_len = -1
+max_len = 0
 for element in squad:
     if len(element) > max_len:
         max_len = len(element)
@@ -21,3 +21,4 @@ for element in squad:
 
 squad2.append(res)
 print(squad2)
+
